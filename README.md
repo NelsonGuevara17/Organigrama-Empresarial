@@ -24,6 +24,14 @@ Este proyecto permite crear, visualizar y gestionar un organigrama empresarial d
 - Node.js (si aplica)
 - PostgreSQL (u otra base de datos compatible)
 - Navegador moderno
+  
+## Nota
+Por motivos internos, no se añadieron botones ni enlaces que redirijan a otras vistas. Cuando ejecutes el proyecto de manera local, añade esta parte a tu URL:
+
+Login: /Organigrama/Login
+Manejo de datos: /Organigrama/Login
+
+Ejemplo: http://localhost:5000/Organigrama/Login
 
 ## Instalación
 
