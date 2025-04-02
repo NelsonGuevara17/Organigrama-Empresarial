@@ -1,0 +1,128 @@
+﻿@{
+    ViewData["Title"] = "Gestión del Organigrama";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión del Organigrama</title>
+
+    <link rel="icon" href="/images/Logos/Mascota.png" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/crud.css">
+</head>
+<body>
+    <div class="container mt-4">
+
+
+        <h1 class="text-center mb-4">Gestión del Organigrama</h1>
+
+        <!-- Dropdown para seleccionar un empleado -->
+        <div class="form-group">
+            <label for="employeeDropdown">Seleccionar Empleado:</label>
+
+            <select id="employeeDropdown" class="form-control">
+                <div>
+                <option value="">-- Selecciona un Empleado --</option>
+                </div>
+                <!-- Las opciones se cargarán dinámicamente en el JS -->
+            </select>
+
+        <button id="buttonLimpiar" class="btn btn-info">Limpiar Campos</button>
+        </div>
+
+
+        <!-- Formulario para mostrar y editar detalles del empleado -->
+        <div id="crudForm">
+            <h2 id="formTitle" class="text-center">Detalles del Empleado</h2>
+            <form id="employeeForm">
+
+                <div class="form-group">
+                    <label for="id">ID:</label>
+                </div>
+                <div class="form-group d-flex align-items-center">
+
+                    <input type="text" id="id" name="id" class="form-control mr-2" style="width: 150px;" >
+
+                    <!-- Lista desplegable para la leyenda -->
+                    <select id="idDropdown" class="form-control" style="width: 100%;">
+                        <option value="">-- Selecciona de la Leyenda --</option>
+                        <option value="TEC">TEC - Tecnología e Innovación</option>
+                        <option value="IMG">IMG - Imagen</option>
+                        <option value="REL">REL - Relaciones Estratégicas</option>
+                        <option value="INV">INV - Investigación y difusión</option>
+                        <option value="TAL">TAL - Talento y Cultura</option>
+                        <option value="PRO">PRO - Gestión de proyectos</option>
+                        <option value="SOC">SOC - Socializando Psicología</option>
+                        <option value="EST">EST - Venciendo Estigmas</option>
+                        <option value="ART">ART - Voces a través del arte</option>
+                        <option value="AUD">AUD - AudioMarketing</option>
+                        <option value="PSI">PSI - Psicoeducando con Paciencia</option>
+                    </select>
+
+
+                </div>
+
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="role">Rol:</label>
+                    <input type="text" id="role" name="role" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="mail">Correo:</label>
+                    <input type="email" id="mail" name="mail" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Teléfono:</label>
+                    <input type="text" id="phone" name="phone" class="form-control">
+                </div>
+@*                 <div class="form-group">
+                    <label for="pid">ID del Supervisor:</label>
+                    <input type="text" id="pid" name="pid" class="form-control">
+                </div> *@
+                <div class="form-group">
+                    <label for="pid">Supervisor:</label>
+                    <select id="pid" name="pid" class="form-control">
+                        <option value="">-- Selecciona un Supervisor --</option>
+                        <!-- Las opciones se cargarán dinámicamente con JavaScript -->
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="img">Imagen (URL):</label>
+                    <input type="text" id="img" name="img" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="estate">Estado:</label>
+                    <select id="estate" name="estate" class="form-control" required>
+                        <option value="" >-- Selecciona un Estado --</option>
+                        <option value="Activo">Activo</option>
+                        <option value="Inactivo">Inactivo</option>
+                    </select>
+                </div>
+                <div class="text-center">
+                    <button type="button" id="saveButton" class="btn btn-primary">Guardar</button> <!-- Botón para crear -->
+                <button type="submit" id="updateButton" class="btn btn-outline-primary ">Actualizar</button> <!-- Botón para actualizar -->
+                    <button type="button" id="deleteButton" class="btn btn-danger">Eliminar</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS y jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS personalizado -->
+    <script src="/js/crud.js"></script>
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

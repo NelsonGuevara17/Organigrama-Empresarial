@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\OrganigramaEmployees.props" />
+</Project>

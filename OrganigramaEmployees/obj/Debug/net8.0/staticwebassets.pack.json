@@ -1,0 +1,73 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Nelson\\Desktop\\EntreConductas\\OrganigramaEmployes\\OrganigramaEmployees\\OrganigramaEmployees\\wwwroot\\css\\crud.css",
+      "PackagePath": "staticwebassets\\css\\crud.css"
+    },
+    {
+      "Id": "C:\\Users\\Nelson\\Desktop\\EntreConductas\\OrganigramaEmployes\\OrganigramaEmployees\\OrganigramaEmployees\\wwwroot\\css\\organigrama.css",
+      "PackagePath": "staticwebassets\\css\\organigrama.css"
+    },
+    {
+      "Id": "C:\\Users\\Nelson\\Desktop\\EntreConductas\\OrganigramaEmployes\\OrganigramaEmployees\\OrganigramaEmployees\\wwwroot\\images\\Directora.jpeg",
+      "PackagePath": "staticwebassets\\images\\Directora.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Nelson\\Desktop\\EntreConductas\\OrganigramaEmployes\\OrganigramaEmployees\\OrganigramaEmployees\\wwwroot\\images\\Fondos\\FONDO ARTE.png",
+      "PackagePath": "staticwebassets\\images\\Fondos\\FONDO ARTE.png"
+    },
+    {
+      "Id": "C:\\Users\\Nelson\\Desktop\\EntreConductas\\OrganigramaEmployes\\OrganigramaEmployees\\OrganigramaEmployees\\wwwroot\\images\\Fondos\\FONDO2.png",
+      "PackagePath": "staticwebassets\\images\\Fondos\\FONDO2.png"
+    },
+    {
+      "Id": "C:\\Users\\Nelson\\Desktop\\EntreConductas\\OrganigramaEmployes\\OrganigramaEmployees\\OrganigramaEmployees\\wwwroot\\images\\Fondos\\FONDO3.png",
+      "PackagePath": "staticwebassets\\images\\Fondos\\FONDO3.png"
+    },
+    {
+      "Id": "C:\\Users\\Nelson\\Desktop\\EntreConductas\\OrganigramaEmployes\\OrganigramaEmployees\\OrganigramaEmployees\\wwwroot\\images\\Logos\\BRANDMARK AZUL.png",
+      "PackagePath": "staticwebassets\\images\\Logos\\BRANDMARK AZUL.png"
+    },
+    {
+      "Id": "C:\\Users\\Nelson\\Desktop\\EntreConductas\\OrganigramaEmployes\\OrganigramaEmployees\\OrganigramaEmployees\\wwwroot\\images\\Logos\\LOGO_PRINCIPAL2.png",
+      "PackagePath": "staticwebassets\\images\\Logos\\LOGO_PRINCIPAL2.png"
+    },
+    {
+      "Id": "C:\\Users\\Nelson\\Desktop\\EntreConductas\\OrganigramaEmployes\\OrganigramaEmployees\\OrganigramaEmployees\\wwwroot\\images\\Logos\\LOGO_VERTICAL.png",
+      "PackagePath": "staticwebassets\\images\\Logos\\LOGO_VERTICAL.png"
+    },
+    {
+      "Id": "C:\\Users\\Nelson\\Desktop\\EntreConductas\\OrganigramaEmployes\\OrganigramaEmployees\\OrganigramaEmployees\\wwwroot\\images\\Logos\\Mascota.png",
+      "PackagePath": "staticwebassets\\images\\Logos\\Mascota.png"
+    },
+    {
+      "Id": "C:\\Users\\Nelson\\Desktop\\EntreConductas\\OrganigramaEmployes\\OrganigramaEmployees\\OrganigramaEmployees\\wwwroot\\images\\perfil.jpg",
+      "PackagePath": "staticwebassets\\images\\perfil.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nelson\\Desktop\\EntreConductas\\OrganigramaEmployes\\OrganigramaEmployees\\OrganigramaEmployees\\wwwroot\\js\\crud.js",
+      "PackagePath": "staticwebassets\\js\\crud.js"
+    },
+    {
+      "Id": "C:\\Users\\Nelson\\Desktop\\EntreConductas\\OrganigramaEmployes\\OrganigramaEmployees\\OrganigramaEmployees\\wwwroot\\js\\organigrama.js",
+      "PackagePath": "staticwebassets\\js\\organigrama.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OrganigramaEmployees.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.OrganigramaEmployees.props",
+      "PackagePath": "build\\OrganigramaEmployees.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.OrganigramaEmployees.props",
+      "PackagePath": "buildMultiTargeting\\OrganigramaEmployees.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.OrganigramaEmployees.props",
+      "PackagePath": "buildTransitive\\OrganigramaEmployees.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

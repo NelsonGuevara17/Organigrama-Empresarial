@@ -1,0 +1,91 @@
+﻿/* Estilos generales */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    color: #343a40;
+}
+
+/* Espaciado para el contenedor principal */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Estilos para el dropdown */
+#employeeDropdown {
+    margin-bottom: 20px;
+}
+
+/* Formulario de empleado */
+#crudForm {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+#formTitle {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+/* Estilos para los botones del formulario */
+button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+    button.btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+        button.btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+    button.btn-danger {
+        background-color: #dc3545;
+        border-color: #dc3545;
+    }
+
+        button.btn-danger:hover {
+            background-color: #c82333;
+        }
+
+/* Ajustes en los campos de entrada del formulario */
+.form-group label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+/* Ajustes de color para los mensajes de éxito o error */
+.alert {
+    margin-top: 20px;
+    display: none; /* Usar JS para mostrar según sea necesario */
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+
+/*MANAGE*/

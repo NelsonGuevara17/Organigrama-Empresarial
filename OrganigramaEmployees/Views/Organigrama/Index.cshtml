@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organigrama Entreconductas</title>
+    <link rel="icon" href="/images/Logos/Mascota.png" type="image/x-icon">
+
+    <!-- Biblioteca OrgChart Balkan -->
+    <script src="https://balkan.app/js/OrgChart.js"></script>
+    <!-- Biblioteca SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- CSS del Organigrama -->
+    <link rel="stylesheet" href="/css/organigrama.css">
+</head>
+<body>
+
+    <!-- Pantalla de carga y logo -->
+    <div id="overlay">
+        <div class="loader"></div>
+        <img src="~/images/Logos/Mascota.png" alt="Processing Image" class="image">
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="conteinerGeneral">
+        <img class="imgEntreconductasH" src="~/images/Logos/LOGO_PRINCIPAL2.png" alt="">
+
+            <button class="download-btn pixel-corners" id="exportButton">
+            <div class="button-content">
+                <div class="svg-container">
+                    <svg class="download-icon"
+                         xmlns="http://www.w3.org/2000/svg"
+                         width="24"
+                         height="24"
+                         viewBox="0 0 24 24">
+                        <path d="M19.479 10.092c-.212-3.951-3.473-7.092-7.479-7.092-4.005 0-7.267 3.141-7.479 7.092-2.57.463-4.521 2.706-4.521 5.408 0 3.037 2.463 5.5 5.5 5.5h13c3.037 0 5.5-2.463 5.5-5.5 0-2.702-1.951-4.945-4.521-5.408zm-7.479 6.908l-4-4h3v-4h2v4h3l-4 4z"></path>
+                    </svg>
+                </div>
+                <div class="text-container">
+                    <div class="text">Download</div>
+                </div>
+            </div>
+        </button>
+
+            <div id="tree" style="width: 100vw; height: 100vh; overflow: hidden;"></div>
+    </div>
+
+    <!-- JavaScript del Organigrama -->
+    <script src="/js/organigrama.js"></script>
+</body>
+</html>
