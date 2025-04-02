@@ -2,6 +2,8 @@
 
 Este proyecto permite crear, visualizar y gestionar un organigrama empresarial de gran escala. Está diseñado para integrarse con bases de datos, inicialmente PostgreSQL, pero es adaptable a otras tecnologías de base de datos sin inconvenientes.
 
+![descarga](https://github.com/user-attachments/assets/7c069374-43d5-49cb-abb5-87c2748b27f2)
+
 ## Funcionalidades principales
 
 - Visualización de un organigrama empresarial completo, dinámico y escalable.
